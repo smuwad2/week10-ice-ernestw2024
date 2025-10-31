@@ -59,7 +59,7 @@
    <!-- TODO: make use of the 'blog-post' component to display the blog posts -->
     <blog-post2 v-for="post in posts" :subject="post.subject" :entry = "post.entry" :mood = "post.mood" :key = "post.id">
     <button class="btn btn-primary" @click="deletePost(post.id)">
-        delete
+        Delete
     </button>
     </blog-post2>
 </template>
